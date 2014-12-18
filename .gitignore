@@ -1,0 +1,8 @@
+modeler
+*.txt
+*.pdf
+*.doc
+*.pptx
+*.key
+*.tar.gz
+.DS_Store

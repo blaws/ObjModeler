@@ -1,0 +1,35 @@
+blaws
+OBJ Modeler
+
+Physics modeler for .obj files. C++ with GLUT/OpenGL on Mac OSX.
+
+Compilation: 'make'
+Execution: './modeler -o <obj file>'
+Optional arguments: -s <scale factor>
+		    -x <x-translation>
+		    -y <y-translation>
+		    -z <z-translation>
+		    -X <x-rotation>
+		    -Y <y-rotation>
+		    -Z <z-rotation>
+		    -g <gravity (0-6)
+		    -c <connection level (0-3)>
+		    -n <# Verlet repetitions>
+
+Controls:
+Left mouse button drag - rotate view (virtual trackball scheme)
+Right-click - poke/pin/delete vertex (see 'p' and 'd')
+'i', 'o' - zoom in/out
+'c' - toggle between poking nearest vertex and all vertices
+'w' - cycle wind speed
+'g' - cycle gravity strength
+'f' - toggle friction
+'0', '1', '2', '3' - set connection level
+'p' - toggle pin mode
+'u' - unpin all vertices
+'d' - toggle delete mode
+'-', '=' - increase/decrease poke force
+',', '.' - increase/decrease number of Verlet repetitions
+'r' - reset model
+Up/Down - move view vertically
+Enter - toggle wireframe view
